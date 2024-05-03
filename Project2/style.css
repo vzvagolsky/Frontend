@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+
+/*
+.products {
+	 display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 0 0 70%;
+	
+	
+   
+}
+*/
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.productcard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.productcard h2 {
+    margin-top: 0;
+}
+
+.productcard p {
+    margin-bottom: 8px;
+}
